@@ -55,18 +55,25 @@
     <!-- Transaction Section start -->
     <section id="transaction" class="transaction">
       <h2>Transaction Page</h2>
-      <form action="">
-        <div class="row">
-          <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#home">Home</a>
-              <a href="#about">About</a>
-              <a href="#contact">Contact</a>
+      <div class="container">
+        <form action="">
+          <div class="input-group">
+            <div class="dropdown">
+              <button class="dropbtn">
+                Items<i data-feather="chevron-down"></i>
+              </button>
+              <div id="myDropdown" class="dropdown-content">
+                <a>Paper</a>
+                <a>Plastic</a>
+                <a>Metal</a>
+                <a>Glass</a>
+              </div>
             </div>
+            <input type="number" placeholder="items in kilogram" min="0" />
           </div>
-        </div>
-      </form>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
     </section>
     <!-- Transaction Section end -->
 
