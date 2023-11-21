@@ -26,7 +26,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Na vbar */
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -145,7 +145,7 @@ html {
 .transaction h2 {
   text-align: center;
   font-size: 2.6rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   color: var(--primary);
 }
 
@@ -164,6 +164,7 @@ html {
   padding: 5rem 2rem;
   color: var(--red);
   background-color: var(--primary);
+  border-radius: 25px;
 }
 
 .dashboard .row .dashboard-card .dashboard-card-title {
@@ -178,7 +179,10 @@ html {
 /* Transaction Section */
 .transaction .container form {
   flex: 1 1 45rem;
-  padding: 5rem 2rem;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 10rem;
   text-align: center;
 }
 
