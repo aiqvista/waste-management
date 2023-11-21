@@ -150,9 +150,32 @@ html {
 }
 
 /* Dashboard Section */
+.dashboard .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.dashboard .row .dashboard-card {
+  text-align: center;
+  margin: 2rem;
+  flex: 1 1 25rem;
+  padding: 5rem 2rem;
+  color: var(--red);
+  background-color: var(--primary);
+}
+
+.dashboard .row .dashboard-card .dashboard-card-title {
+  font-size: 2.5rem;
+}
+
+.dashboard .row .dashboard-card .dashboard-card-value {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
 
 /* Transaction Section */
-
 .transaction .container form {
   flex: 1 1 45rem;
   padding: 5rem 2rem;
@@ -279,6 +302,14 @@ footer .credit a {
 @media (max-width: 1366px) {
   html {
     font-size: 75%;
+  }
+
+  .dashboard .row .dashboard-card .dashboard-card-title {
+    font-size: 5rem;
+  }
+
+  .dashboard .row .dashboard-card .dashboard-card-value {
+    font-size: 6.8rem;
   }
 }
 
