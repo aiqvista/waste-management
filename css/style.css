@@ -249,6 +249,13 @@ footer .credit a {
   font-weight: 700;
 }
 
+/* Input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 /* Dropdown */
 .dropbtn {
   background-color: var(--secondary);
@@ -305,11 +312,11 @@ footer .credit a {
   }
 
   .dashboard .row .dashboard-card .dashboard-card-title {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
 
   .dashboard .row .dashboard-card .dashboard-card-value {
-    font-size: 6.8rem;
+    font-size: 6.5rem;
   }
 }
 
